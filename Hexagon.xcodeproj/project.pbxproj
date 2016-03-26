@@ -14,6 +14,7 @@
 		49A494121CA5DC7D00104EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A494101CA5DC7D00104EDA /* Main.storyboard */; };
 		49A494141CA5DC7D00104EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A494131CA5DC7D00104EDA /* Assets.xcassets */; };
 		49A494171CA5DC7D00104EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A494151CA5DC7D00104EDA /* LaunchScreen.storyboard */; };
+		49A4941F1CA68A2600104EDA /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A4941E1CA68A2600104EDA /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		49A494131CA5DC7D00104EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A494161CA5DC7D00104EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49A494181CA5DC7D00104EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A4941E1CA68A2600104EDA /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				49A4940A1CA5DC7D00104EDA /* GameScene.sks */,
 				49A4940C1CA5DC7D00104EDA /* GameScene.swift */,
 				49A4940E1CA5DC7D00104EDA /* GameViewController.swift */,
+				49A4941E1CA68A2600104EDA /* Shapes.swift */,
 				49A494101CA5DC7D00104EDA /* Main.storyboard */,
 				49A494131CA5DC7D00104EDA /* Assets.xcassets */,
 				49A494151CA5DC7D00104EDA /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				49A4940D1CA5DC7D00104EDA /* GameScene.swift in Sources */,
 				49A4940F1CA5DC7D00104EDA /* GameViewController.swift in Sources */,
 				49A494091CA5DC7D00104EDA /* AppDelegate.swift in Sources */,
+				49A4941F1CA68A2600104EDA /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Hexagon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Thijs-Nieuwkoop.Hexagon";
@@ -271,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Hexagon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Thijs-Nieuwkoop.Hexagon";
